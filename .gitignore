@@ -1,0 +1,13 @@
+
+# pixi environments
+.pixi
+*.egg-info
+
+# data files
+*.h5
+*.npy
+*.npz
+
+# python build files
+__cache__
+*.pyc

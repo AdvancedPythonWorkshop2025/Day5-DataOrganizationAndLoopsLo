@@ -1,0 +1,22 @@
+[project]
+authors = ["Nicholas A. Del Grosso <delgrosso.nick@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "Day5"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+pip = ">=25.0.1,<26"
+
+[pypi-dependencies]
+h5py = ">=3.13.0, <4"
+xarray = ">=2025.3.0, <2026"
+ipykernel = ">=6.29.5, <7"
+netcdf4 = ">=1.7.2, <2"
+matplotlib = ">=3.10.1, <4"
+seaborn = ">=0.13.2, <0.14"
+pandas = ">=2.2.3, <3"
